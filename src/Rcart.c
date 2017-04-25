@@ -33,7 +33,7 @@ R_makecartogram(SEXP r_pop, SEXP gridx, SEXP gridy, SEXP r_dims, SEXP blur)
 {
     int *dims;
     double **pop;
-    int i, n;
+    int i;
     SEXP ans;
 
     dims = INTEGER(r_dims);    
